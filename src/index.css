@@ -1,0 +1,213 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+html {
+    height: 100%;
+}
+body {
+    line-height: 1;
+}
+
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+body {
+    background-color: #B2C382;
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 14px;
+    font-weight: normal;
+    color: #000;
+    line-height: 22px;
+    
+}
+
+.all {
+    width: 614px;
+    margin: 0 auto; 
+}
+
+img[src$="jpg"]{
+    padding: 64px 0px 24px 108px;
+  }
+
+.name {
+    float: right;
+}
+
+h1 {
+    font-size: 30px;
+    padding: 78px 85px 12px 45px;
+    font-family: 'Inter';
+}
+
+.prof {
+    font-size: 18px;
+    padding: 12px 259px 31px 45px;
+}
+
+.line1 {
+    background-color: #000;
+    width: 614px;
+    height: 3px;
+    margin: 0px 0px 51px 0px;
+}
+
+.facts {
+    width: 614px;
+    height: 220px;
+    top: 233px;
+
+    background-color: #FFFFFF;
+    border-radius: 3px;
+}
+
+.aboutme {
+    font-size: 18px;
+    text-align: center;
+    padding: 22px 243px 24px 235px;
+}
+
+.lists {
+    font-size: 14px;
+    line-height: 17px;
+    padding: 24px 49px 50px 45px;
+}
+
+.applications {
+    font-size: 18px;
+    text-align: center;
+    padding: 47px 218px 12px 219px;
+}
+
+.imageapps {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.certificates {
+    width: 614px;
+    height: 309px;
+    top: 673px;
+    margin: 47px 0px 0px 0px;
+
+    background-color: #FFFFFF;
+    border-radius: 3px;
+}
+
+.titlecertif {
+    font-size: 18px;
+    text-align: center;
+    padding: 22px 226px 38px 226px;
+}
+
+.certificatesimg {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 191px;
+}
+
+.experience {
+    top: 673px;
+    margin: 44px 0px 40px 0px;
+    width: 614px;
+    height: 429px;
+
+    background-color: #FFFFFF;
+    border-radius: 3px;
+}
+
+.titleexper {
+    font-size: 18px;
+    text-align: center;
+    padding: 29px 225px 0px 225px;
+}
+
+.tableall {
+    background-color: #E5E5E5;
+    margin: 29px 42px 34px 43px;
+    width: 529px;
+    height: 315px; 
+    text-align: center;
+}
+
+th {
+    border: 1px solid #FFFFFF;
+    text-align: center;
+ }
+
+ td {
+    border: 1px solid #FFFFFF;
+    text-align: center;
+ }
+
+ th, td {
+    border: 1px solid #FFFFFF;
+ }
+
+.line2 {
+    background-color: #000;
+    width: 614px;
+    height: 3px;
+    margin: 40px 0px 0px 0px;
+}
+
+.contacts {
+    font-size: 18px;
+    text-align: center;
+    padding: 21px 25px 0px 23px;
+}
+
+.links {
+    padding: 31px 0px 85px 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 +46px 0 +34px;
+}
+
+a {
+    text-decoration:none;
+    color: #000;
+    font-size: 14px;
+}
+
+.hr.vertical
+{
+    border: 2px solid #FFFFFF;
+    transform: rotate(89.82deg);
+}
